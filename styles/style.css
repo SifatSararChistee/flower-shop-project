@@ -29,9 +29,11 @@ body{
 
 .header-container{
     background-color: rgba(229, 84, 115, 0.1); 
-    width: 100%;
+    max-width:1920px;
     height: 550px;
     display: flex;
+    margin:0 auto;
+    justify-content: space-evenly;  
 }
 
 .header-text{
