@@ -152,3 +152,35 @@ body{
     margin: 0 auto;
     padding-left: 140px;
 }
+
+
+/* delivery section */
+
+.delivery-container{
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);   
+    width: 1440px;
+    height: 320px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    padding: 80px 150px;
+    margin-bottom: 100px;
+}
+
+.delivery-content{
+    text-align: center;
+    color: rgba(39, 39, 39, 0.8);
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.delivery-content p{
+    margin-top: 20px;
+}
+
+
+/* deal section */
