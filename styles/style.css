@@ -265,5 +265,58 @@ body{
 }
 
 
+/* subscribe section */
 
+.sub-container{
+    max-width: 1440px;
+    height: 449px;
+    border-radius: 8px;
+    background-image:url(Rectangle\ 9.png);
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-size:100%;
+}
 
+.sub-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.sub-content h1{color: rgb(39, 39, 39);
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 40px;
+    margin-top: 150px;
+}
+.sub-content p{
+    color: rgba(39, 39, 39, 0.6);
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 60px;
+}
+ 
+.emailarea{
+    display: flex;
+    gap:20px;
+    justify-content: center;
+    align-items: center;
+}
+
+::placeholder{
+    color: rgba(39, 39, 39, 0.6);
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.e-area{
+    border-radius: 8px;
+background: rgb(255, 255, 255);
+    border: none;
+    padding: 22px 513px 22px 22px;
+ }
